@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  <!-- Font awesome Link Here -->
+  <script src="https://kit.fontawesome.com/9bc9a400ec.js" crossorigin="anonymous"></script>
+  <!-- Google font link Here -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CDN Link Here -->
+  <script src="https://cdn.tailwindcss.com"></script>
+ <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          fontFamily: {
+            manrope: ["Manrope", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+  
+  </head>
+  <body>
+    <!-- Header section Starts Here -->
+    <section class="container mx-auto px-10 lg:px-32 mb-24">
+      <div class="flex flex-col md:flex-row">
+      <div class="ml-10 my-10">
+        <h1 class="font-manrope text-7xl">It's good <br> 
+          tea time at The <br> Tea House</h1>
+          <p class="text-sm font-manrope">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p> 
+          <button class="my-5 bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 px-5 py-2 text-white rounded-lg mb-5 ">Explore More <i class="fa-solid fa-square-arrow-up-right"></i></button>
+      </div>
+      <div class="w-3/4">
+        <div class="bg-[url('./images/banner.png')] min-w-full h-[450px] bg-cover"></div>
+        <div class="shadow-lg w-[255px] h-[100px;
+        ] justify-center ml-[150px] -mt-20 bg-white rounded flex">
+          <div class="flex items-center">
+            <i class="fa-solid fa-star text-2xl text-amber-300"></i>
+          </div>
+          <div>
+            <h2 class="pl-3 font-manrope font-bold lg:text-2xl mt-5">5.00</h2>
+            <p>Trust Pilot Ratings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- Header section Ends Here -->
+
+    <!-- Our Featured Products Section Starts Here -->
+<section class="container mx-auto px-16 lg:px-32 mb-24">
+  <div class="text-center max-w-full my-10">
+    <h2 class="font-manrope text-3xl">Our Featured Products</h2>
+    <p class="font-manrope text-sm mt-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+  </div>
+  <div class="grid lg:grid-cols-4 gap-9 my-10">
+    <div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded w-[250px] h-[350px]">
+    <div class="bg-[url('./images/tea-1.png')] w-[140px] pt-10 mx-auto h-[220px] bg-cover"></div>
+    <div class="text-center py-10">
+      <h2 class="font-manrope text-xl">Milk Tea</h2>
+      <p class="font-manrope text-sm text-white">Creamer could be replaced by fresh milk</p>
+    </div>
+  </div>
+    <div class="bg-gradient-to-r  from-slate-300 to-slate-400 rounded w-[250px] h-[350px]">
+    <div class="bg-[url('./images/tea-2.png')] w-[150px] pt-10 mx-auto h-[220px] bg-cover"></div>
+    <div class="text-center py-10">
+      <h2 class="font-manrope text-xl">Black Tea</h2>
+      <p class="font-manrope text-sm text-black">Creamer could be replaced by fresh milk</p>
+    </div>
+  </div>
+    <div class="bg-gradient-to-r from-purple-500 to-pink-500 rounded w-[250px] h-[350px]">
+    <div class="bg-[url('./images/tea-3.png')] w-[150px] pt-10 mx-auto h-[220px] bg-cover"></div>
+    <div class="text-center py-10">
+      <h2 class="font-manrope text-xl">Lemon Tea</h2>
+      <p class="font-manrope text-sm text-white">Creamer could be replaced by fresh milk</p>
+    </div>
+  </div>
+    <div class="bg-gradient-to-r from-slate-300 to-slate-400 rounded w-[250px] h-[350px]">
+    <div class="bg-[url('./images/tea-4.png')] w-[135px] pt-10 mx-auto h-[220px] bg-cover"></div>
+    <div class="text-center py-10">
+      <h2 class="font-manrope text-xl">Green Tea</h2>
+      <p class="font-manrope text-sm text-black">Creamer could be replaced by fresh milk</p>
+    </div>
+  </div>
+  </div>
+</section>
+    <!-- Our Featured Products Section Ends Here -->
+
+    <!-- Great Tea, Freshly Presented Section Starts Here -->
+    <section class= "container mx-auto px-16 lg:px-32 mb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="grid grid-cols-2 grid-rows-3 gap-4 md:w-5/6">
+          <div class="rounded-lg bg-gradient-to-r from-red-200 via-red-100 to-white h-38"></div>
+          <div class="row-span-2 rounded-lg bg-red-200">
+            <img class="mx-auto my-5" src="./images/fresh-1.png" alt="">
+          </div>
+          <div class="row-span-2 bg-gradient-to-r bg-stone-200">
+            <img class="mx-auto my-5" src="./images/fresh-2.png" alt="">
+          </div>
+          <div class="bg-gradient-to-r from-stone-200 via-stone-100 to-white h-38"></div>
+        </div>
+        <div>
+          <h1 class="font-manrope text-5xl font-semibold my-5">Great Tea, Freshly Presented</h1>
+          <p class="font-manrope">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+          <br>
+          <h3 class="font-manrope text-2xl font-semibold mb-5">Unique Taste</h3>
+          <p class="font-manrope">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          <br>
+          <h3 class="font-manrope text-2xl font-semibold">Premium Quality</h3>
+          <p class="manrope">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Great Tea, Freshly Presented Section Ends Here -->
+<!-- Meet Our Client Section Starts Here -->
+<section class="container flex justify-center mb-28">
+  <div class="grid md:grid-cols-2 gap-4 bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 lg:w-5/6 rounded-lg text-white px-16">
+    <!-- title and paragraphs -->
+    <div class="flex items-center justify-center mr-3">
+      <div class="w-5/6">
+        <h1 class="text-3xl mb-5 mt-10 font-manrope">Meet Our Super Clients</h1>
+        <p class="mb-5 font-manrope">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <br>
+        <button class="font-semibold font-manrope bg-white text-orange-600 px-3 py-2 rounded-sm">Show All</button>
+        <div class="relative left-5 md:left-10 -mt-40 opacity-40">
+          <div>
+            <img class="min-w-full" src="./images/cup.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 3 reviewers -->
+    <div class="relative py-24">
+<!-- middle reviewer -->
+<div class="z-10 absolute top-52 md:-left-10 w-3/4">
+  <div class="relative bg-white h-60 rounded-lg text-black flex px-5 items-center">
+    <div class="absolute -top-5 -left-5">
+      <img src="./images/client.png" alt="">
+    </div>
+    <div>
+    <p class="font-manrope mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment
+    </p>
+    <h4 class="font-manrope font-bold">Ilham Yuda</h4>
+    <small class="font-manrope">Businessman</small>
+  </div>
+</div>
+</div>
+    <!-- top reviewer -->
+    <div class="relative left-20 md:left-32 opacity-40 w-3/4">
+      <div class="relative bg-white h-56 rounded-lg text-black flex px-5 items-center">
+        <div class="absolute -top-5 -left-5">
+          <img src="./images/client.png" alt="">
+        </div>
+        <div>
+          <p class="font-manrope mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment
+          </p>
+          <h4 class="font-manrope font-bold">Ilham Yuda</h4>
+          <small class="font-manrope">Businessman</small>
+        </div>
+      </div>
+    </div>
+    <!-- bottom reviewer -->
+    <div class="relative left-20 md:left-32 top-10 opacity-40 w-3/4">
+      <div class="relative bg-white h-56 rounded-lg text-black flex px-5 items-center">
+        <div>
+          <img src="./images/client.png" alt="">
+        </div>
+        <div>
+          <p class="font-manrope mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment
+          </p>
+          <h4 class="font-manrope font-bold">Ilham Yuda</h4>
+          <small class="font-manrope">Businessman</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Meet Our Client Section Ends Here -->
+
+<!-- News & Events Section Starts Here -->
+<section class="container mx-auto px-16 lg:px-32 mb-24">
+<div class="text-center max-w-full my-10">
+  <h1 class="font-manrope font-semibold text-3xl ">News & Events</h1>
+  <p class="font-manrope text-sm mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+</div>
+<div class="grid md:grid-cols-3 gap-4">
+  <div class="rounded-lg border-2">
+    <img class="w-5/6 mx-auto my-5" src="./images/news-1.png" alt="">
+    <div class="p-8">
+    <small class="font-manrope">Feb 05, 2027</small>
+    <h1 class="font-manrope text-2xl font-semibold">Collecting 8 points for discount</h1>
+    <p class="font-manrope">There are many variations of passages of Lorem Ipsum available.</p>
+    <h5 class="font-manrope font-extrabold">Learn More</h5>
+    </div>
+  </div>
+  <div class="rounded-lg border-2">
+    <img class="w-5/6 mx-auto my-5" src="./images/news-2.png" alt="">
+    <div class="p-8">
+    <small class="font-manrope">Feb 05, 2027</small>
+    <h1 class="font-manrope text-2xl font-semibold">Collecting 8 points for discount</h1>
+    <p class="font-manrope">There are many variations of passages of Lorem Ipsum available.</p>
+    <h5 class="font-manrope font-extrabold">Learn More</h5>
+    </div>
+  </div>
+  <div class="rounded-lg border-2">
+    <img class="w-5/6 mx-auto my-5" src="./images/news-3.png" alt="">
+    <div class="p-8">
+    <small class="font-manrope">Feb 05, 2027</small>
+    <h1 class="font-manrope text-2xl font-semibold">Collecting 8 points for discount</h1>
+    <p class="font-manrope">There are many variations of passages of Lorem Ipsum available.</p>
+    <h5 class="font-manrope font-extrabold">Learn More</h5>
+    </div>
+  </div>
+</div>
+</section>
+<!-- News & Events Section Ends Here -->
+
+<!-- Footer Section Starts Here -->
+<footer class="bg-red-50 px-16 md:32 min-h-full">
+  <div class="grid md:grid-cols-2 gap-4">
+  <div class="my-14">
+    <div class="mb-8">
+    <img src="./images/cup.png" alt="">
+  </div>
+    <div class="grid grid-cols-2">
+    <div>
+    <h1 class="font-manrope font-semibold">Quick Links</h1>
+    <ul>
+      <li class="font-manrope">Home</li>
+      <li class="font-manrope">About Us</li>
+      <li class="font-manrope">Insurance</li>
+      <li class="font-manrope">Privacy Policy</li>
+    </ul>
+  </div>
+  <div>
+    <h1 class="font-manrope font-semibold">Our Service</h1>
+    <ul>
+      <li class="font-manrope">Life Insurance</li>
+      <li class="font-manrope">Car Insurance</li>
+      <li class="font-manrope">Health Insurance</li>
+      <li class="font-manrope">House Insurance</li>
+    </ul>
+  </div>
+  </div>
+</div>
+<div>
+  <div class="flex justify-center my-14"> 
+    <h4 class="flex font-manrope items-center mr-14">Ready to get started?</h4>
+    <button class="bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 px-5 py-2 text-white rounded-lg">Get Started</button>
+  </div>
+  <div class="grid grid-cols-2">
+    <div>
+      <h2 class="font-manrope font-semibold">Help</h2>
+      <ul>
+        <li class="font-manrope">FAQs</li>
+        <li class="font-manrope">Contact Us</li>
+      </ul>
+    </div>
+    <div>
+      <h1 class="font-manrope font-bold text-3xl mb-2">Subscribe to our newsletter</h1>
+      <div>
+        <input class="font-manrope bg-transparent border-b-2 border-black w-4/6 md:w-5/6" type="email" name="email" id="email" placeholder="Enter Your Email" required>
+        <i class="p-3 fa-solid fa-chevron-right bg-orange-600 rounded-full text-white"></i>
+      </div>
+      <div class="flex justify-between w-2/5 mb-3">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<p class="font-manrope text-center pb-10">&copy; 2027 UIDesign.to - All rights reserved.</p>
+</footer>
+<!-- Footer Section Ends Here -->
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
